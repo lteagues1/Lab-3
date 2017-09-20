@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -47,7 +45,18 @@ body{
 	display: block;
 	text-align:left;
 	color: #000000;
-	background-color: #ffffff;
+	background-color: #ff99ff;
+}
+h2{
+	text-align:left;
+	font-size: .75em;
+	font-weight: bold;
+	color: #000000;
+	font-family: Times New Roman;
+}
+legend{
+	text-align:left;
+	font-size:1.5em;
 }
 
 p {
