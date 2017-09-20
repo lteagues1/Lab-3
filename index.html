@@ -1,25 +1,33 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
   <title>Lab 3</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="screen.css" />
+  <link rel="stylesheet" media="screen" href="screen.css"  
 </head>
 <body>
   
-  <form>
-    First Name:<br>
-    <input type="text" name="firstname"><br>
-    Last Name:<br>
-    <input type="text" name="lastname"><br>
-    Email Address:<br>
-    <input type="text" name="emailaddress"><br>
-    Phone Number:<br>
-    <input type="text" name="phonenumber"><br>
-    Date of Birth:<br>
-    <input type="text" name="dob"><br>
-    <input type="submit" value="Submit"><br>
+  <form method ="POST">
+  <fieldset name=" Information">
+     <legend>Registration</legend>
+    <p>
+      <label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
+      <label>Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
+    </p>
+    <p>
+    <label>Email Address: <input type="text" name="email_address_field" placeholder="email address"></label>
+    </p>
+    <p>
+      <label>Phone Number: <input type="text" name="phone_number_field" placeholder="number"></label>
+    </p>
+    <p>
+   <label>Date of Birth: <input type="date" name="dob_field" placeholder="date"></label>
+    </p>
+    <div>
+    <input type="submit" value="Submit">
+      </div>
+    </fieldset>
   </form>
     
 
